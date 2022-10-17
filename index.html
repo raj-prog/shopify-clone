@@ -9,10 +9,94 @@
       type="image/png"
       href="https://cdn.shopify.com/static/shopify-favicon.png"
     />
-    <title>Shopify clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopify Clone</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            body: 'Open Sans, sans-serif',
+          },
+          extend: {
+            colors: {
+              mainbgcolor: '#FBF7ED',
+            },
+          },
+        },
+      };
+    </script>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold">Shopify Clone</h1>
+  <body class="font-['Open Sans']">
+    <header class="bg-mainbgcolor">
+      <!-- Navbar -->
+      <nav class="flex items-center justify-between py-5 mx-20 sticky gap-8">
+        <a href="#"
+          ><img
+            class="w-[121px] h-[34px] inline-block"
+            src="./assets/shopify-logo.png"
+            alt="logo"
+        /></a>
+        <div class="lg:flex flex-grow hidden space-x-8">
+          <a
+            href="#"
+            class="cursor-pointer font-medium text-base text-[#212326] hover:underline hover:underline-offset-1"
+            >Start <i class="fa-solid fa-chevron-down fa-2xs"></i
+          ></a>
+          <a
+            href="#"
+            class="cursor-pointer font-medium text-base text-[#212326] hover:underline hover:underline-offset-1"
+            >Sell <i class="fa-solid fa-chevron-down fa-2xs"></i
+          ></a>
+          <a
+            href="#"
+            class="cursor-pointer font-medium text-base text-[#212326] hover:underline hover:underline-offset-1"
+            >Market <i class="fa-solid fa-chevron-down fa-2xs"></i
+          ></a>
+          <a
+            href="#"
+            class="cursor-pointer font-medium text-base text-[#212326] hover:underline hover:underline-offset-1"
+            >Manage <i class="fa-solid fa-chevron-down fa-2xs"></i
+          ></a>
+        </div>
+        <div class="lg:flex hidden items-center space-x-8">
+          <a
+            href="#"
+            class="cursor-pointer font-medium text-base text-[#212326] hover:underline hover:underline-offset-1"
+            >Pricing</a
+          >
+          <a
+            href="#"
+            class="cursor-pointer font-medium text-base text-[#212326] hover:underline hover:underline-offset-1"
+            >Learn <i class="fa-solid fa-chevron-down fa-2xs"></i
+          ></a>
+          <a
+            href="#"
+            class="cursor-pointer font-medium text-base text-[#212326] hover:underline hover:underline-offset-1"
+            >Login</a
+          >
+          <a
+            href="#"
+            class="cursor-pointer font-bold bg-[#008060] hover:bg-[#004C3F] text-white px-4 py-2 rounded-sm"
+            >Try for free</a
+          >
+        </div>
+        <div class="lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
