@@ -1,8 +1,6 @@
 # Raju A (R.C)
 
-## Shopify Clone
-
-![TAILWIND CSS](https://img.shields.io/badge/HTML-TAILWIND%20CSS-blue)
+## Shopify Clone ![](https://img.shields.io/badge/Clone-Project-red) ![](https://img.shields.io/badge/Technlogies-HTML%2FTAILWIND-blue)
 
 ## Topics learned in this project:
 
