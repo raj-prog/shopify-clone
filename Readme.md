@@ -4,6 +4,8 @@
 
 [Live Demo](https://shopify-clone-2.netlify.app/)
 
+## Disclaimer: This website is created only for learning and educational purpose
+
 ## Topics learned in this project:
 
 - **_Tailwind CSS_**
